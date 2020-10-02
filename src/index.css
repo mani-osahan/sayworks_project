@@ -1,13 +1,100 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: -moz-linear-gradient(to top left, #34e89e, #0f3443);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.header {
+    display: flex;
+    vertical-align: top;
+    text-align: left;
+    font-size: calc(10px + 2vmin);
+    color: black;
+
+}
+
+.logo{
+    position: absolute;
+    height: 90px;
+    top: 15px;
+    left: 0;
+}
+
+.launchTitle {
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 5px;
+    font-size: 75px;
+    height: 100px;
+    left: 5px;
+    position: absolute;
+
+}
+
+.search {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 40%;
+    border: 3px solid RED;
+    padding: 10px;
+}
+
+.job-search{
+    position: relative;
+    display: inline;
+    width: 55%;
+    height: 30px;
+    padding: 10px;
+    float: left;
+
+}
+.job-search input{
+    width: 100%;
+    height: 30px;
+}
+
+.location-search{
+    position: relative;
+    display: inline;
+    width: 15%;
+    height: 30px;
+    right: 10px;
+    float: left;
+    padding: 10px;
+}
+
+.location-search select{
+    width: 160px;
+    height: 35px;
+}
+
+.search-button{
+    position: relative;
+    display: inline;
+    top: 4px;
+    left: 30px;
+    float: left;
+    padding: 6px;
+
+}
+
+.search-button button{
+    width: 110px;
+    height: 35px;
+
 }
